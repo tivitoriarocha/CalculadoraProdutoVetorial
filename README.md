@@ -25,6 +25,36 @@
 
 ---
 
+## 🧰 Como Compilar
+
+>⚠️ O arquivo contendo todos as implementações finais a ser compilado é finalMain.c
+
+```bash
+gcc -g -o main finalMain.c
+
+gdb main
+
+run
+```
+
+---
+
+## 📘 Conceitos aplicados
+
+🔹 Produto vetorial  
+🔹 Vetores tridimensionais  
+🔹 Recursividade e loops em C  
+🔹 Manipulação de entrada/saída via terminal
+
+---
+
+## 📎 Observações
+
+⚠️ O produto vetorial é não comutativo: u × v ≠ v × u  
+🔁 A estrutura recursiva permite reiniciar o processo com novos vetores sem reiniciar o programa
+
+---
+
 ## 🧪 Exemplo de Uso
 
 ```bash
@@ -48,4 +78,10 @@ Matriz para u x v:
 | 4.00  5.00  6.00 | 4.00  5.00 |
 
 Resultado: (-3.00, 6.00, -3.00)
+```
+---
 
+## 📄 Licença
+
+🆓 Projeto livre para uso acadêmico e educacional.
+Sinta-se à vontade para clonar, adaptar e compartilhar!
